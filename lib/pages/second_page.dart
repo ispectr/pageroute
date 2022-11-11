@@ -16,7 +16,7 @@ class SecondPage extends MaterialPageRoute<Null>{
               )),
           Center(
             child: ElevatedButton(
-              onPressed: () => Navigator.pop(context),
+              onPressed: () => Navigator.pop(context), // portal to previous page
               child: Text("back to previous page", style: TextStyle(fontSize: 20)),
               style: ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll(Colors.transparent),

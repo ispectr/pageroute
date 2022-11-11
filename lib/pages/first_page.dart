@@ -19,7 +19,7 @@ class FirstPage extends StatelessWidget {
           )),
           Center(
             child: ElevatedButton(
-              onPressed: () => Navigator.push(context, SecondPage()),
+              onPressed: () => Navigator.push(context, SecondPage()), // portal to next page
               child: Text("go to second page", style: TextStyle(fontSize: 20)),
               style: ButtonStyle(
                 backgroundColor: MaterialStatePropertyAll(Colors.transparent),
